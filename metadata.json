@@ -1,0 +1,6 @@
+{
+  "name": "Irfan Tools Company",
+  "description": "Swat's premier commercial hardware store since 1998, providing precision industrial tools, power tools, safety gear, and architectural hardware.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

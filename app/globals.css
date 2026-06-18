@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), sans-serif;
+  --font-display: var(--font-montserrat), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+
+  --color-industrial-navy: #1B2A4A;
+  --color-safety-orange: #E85D04;
+  --color-brand-green: #25D366;
+  --color-surface-bg: #fcf9f8;
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .transition-standard {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
